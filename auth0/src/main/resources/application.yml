@@ -1,0 +1,13 @@
+application:
+  client-origin-url: ${CLIENT_ORIGIN_URL}
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+  port: 6060
+
+okta:
+  oauth2:
+    issuer: ${OKTA_OAUTH2_ISSUER}
+    audience: ${OKTA_OAUTH2_AUDIENCE}
